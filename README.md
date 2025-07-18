@@ -46,8 +46,7 @@ Step 6 - Create a file locally on your Desktop called create-job.json
 
 Step 7 - Run the following command in a Terminal (referencing the create-job.json on your Desktop) - save the job id
 ```
-curl -X POST \                                                                        
-  https://yourdbc-databricksworkspace/api/2.1/jobs/create \ 
+curl -X POST https://yourdbc-databricksworkspace/api/2.1/jobs/create \ 
   -H "Authorization: Bearer YOURPATTOKEN" \
   -H "Content-Type: application/json" \
   -d @create-job.json
