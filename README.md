@@ -55,9 +55,8 @@ curl -X POST https://yourdbc-endpoint/api/2.1/jobs/create \
 
 Step 8 - Run the job id (from Step 7)
 ```
-curl -X POST \                                                                        
-  https://yourdbc-databricksworkspace/api/2.1/jobs/run-now \
-  -H "Authorization: Bearer YOURPATTOKEN" \
+curl -X POST https://yourdbc-endpoint/api/2.1/jobs/run-now \
+  -H "Authorization: Bearer YOURTOKEN" \
   -H "Content-Type: application/json" \
-  -d '{"job_id": YOURJOBIDFROMSTEP7}' 
+  -d '{"job_id": 742251434665239}'
 ```
