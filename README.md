@@ -18,7 +18,7 @@ Step 4 - After your ran your first notebook, go to the Catalog to validate the t
 
 Step 5 - Go to User Icon at top right > Settings > User > Developer > Access tokens & Generate a new token (save your token)
 
-Step 6 - Create a file locally on your Desktop called create-job.json
+Step 6 - Create a file locally on your Desktop called create-job.json (change youremail@address.com to your email)
 ```
 {
   "name": "Serverless Example Job",
